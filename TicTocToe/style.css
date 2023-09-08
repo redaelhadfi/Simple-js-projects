@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(to right, #37c9e6, #03526c);
+}
+
+
+
+
+h1{
+    font-family: "Permanent Marker", cursive;
+   
+    margin: auto;
+    margin-bottom: 10%;
+    width: 60%;
+    border: 3px solid #f5f7f2;
+    padding: 6px;
+    
+    text-align: center;
+
+    background-color: #ebe9ef;
+    
+
+    color: rgb(24, 23, 23);
+   
+}
+
+.cell {
+    width: 89px;
+    height: 89px;
+    color: #423f3f;
+    background-color: #ebe9ef;
+    line-height: 75px;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#board {
+    display: grid;
+    /* space between items */
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+
+
+
+
+    margin: auto;
+
+    justify-content: center;
+
+}
+
+#game {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+
+}
+
+#restart {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(60, 58, 58);
+    cursor: pointer;
+    margin: 3%;
+}
+
+#status {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    font-size: 13 px;
+    color: rgb(249, 247, 247);
+    margin: 1%;
+}
